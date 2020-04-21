@@ -1,0 +1,502 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-brand  {
+    background-color: black;
+    padding: 20px  0;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: black ;
+    font-size: 18px;
+}
+
+h2, p {
+    margin-bottom: 0 !important;
+}
+
+.steps-title {
+    margin-top: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-brand {
+    width: 150px;
+}
+
+.header_login-btn {
+    border: none;
+    padding: 2px 15px;
+    background-color: white;
+    border-radius: 2px;
+    margin-right: 20px;
+
+}
+
+
+.header_casino-btn {
+    border: 1px solid white;
+    color: white;
+    padding: 2px 15px;
+    background-color: transparent;
+    border-radius: 2px;
+}
+
+
+
+
+
+.page_header {
+    height: 700px;
+    background-image: url(../img/desktop-header.jpg); 
+    /* Image is centered vertically and horizontally at all times */
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center 68%;
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
+
+}
+
+.page_header-wrapper a
+{
+    text-decoration: none;
+}
+
+.nav-brand_cont {
+    height: 50h;
+}
+
+.page_header-wrapper {
+    position: absolute;
+    top: 15%;
+    left: 60%;
+}
+
+
+
+.page_header-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: calc(1vw + 2.8rem);
+    margin-bottom: 45px;
+}
+
+.page_header-subtitle {
+    font-size: 30px;
+}
+
+.signup a {
+    text-decoration: none;
+}
+
+
+.btn-signup {
+    background-color: #E11657;
+    border: none;
+    color: white;
+    padding: 15px 89px;
+    font-size: 17px;
+    margin-bottom: 25px;
+    display: block;
+    width: 100%;
+    box-shadow: -2px -2px 10px rgba(0,0,0,.25) inset, 2px 2px 10px #d5d5d5 inset;
+    border-radius: 6px;
+}
+
+.btns-paycheck {
+    background-color: #FF9300;
+}
+
+
+
+.btn-pink_title {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn-container {
+
+    margin-top: 45px;
+    width: 50%;
+    
+}
+
+
+
+.steps  {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding: 35px 0;
+}
+
+.steps-title {
+    padding-left: 45px;
+}
+
+.casino-title {
+    text-transform: uppercase;
+    padding: 55px 0;
+    font-size: 159%;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.step-boxes {
+    padding-bottom: 15px;
+    background-color: #1a1a21;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-bottom: 13px;
+}
+
+.step-boxes img {
+    width: 100%;
+}
+
+.step-boxes_title {
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.signup {
+    margin-top: 100px;
+}
+
+.signup_title {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.signup_title_first {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
+.fa-plus {
+    margin: 0 8px;
+    background-color: red;
+    padding: 2px;
+}
+
+.paying {
+    margin-top: 95px;
+}
+
+.paying_icon {
+    height: 80px;
+    width: 120px;
+    background-color: #1a1a21;
+    border-radius: 5px;
+    display:table-cell;vertical-align:middle;
+    overflow: hidden;
+}
+
+.img_wrapper img {
+    height: 5%;
+}
+
+.paying_icon .img_wrapper {
+    display: block;
+    padding-left: 15px;
+}
+
+.last-child {
+    padding-left: 23px !important;
+}
+
+
+.icon_wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.post_icon {
+    width:90%;
+}
+
+footer {
+    margin-top: 75px;
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: #1a1a21;
+    padding: 20px 0;
+}
+
+.mobile_header {
+    display: none;
+    }
+
+
+
+
+
+/* Snarphones */
+@media only screen and (max-width:479px) {
+    
+    .mobile_header {
+        display: block;
+        width: 100%;
+    }
+
+    .page_header {
+        background: none;
+        height: auto;
+        
+    }
+
+    .nav-brand {
+        text-align: center;
+    }
+
+    .game-btn {
+        display: none;
+    }
+
+    .page_header-wrapper {
+        position: static;
+        padding: 0 15px;
+    }
+
+    .steps {
+        margin-top: 75px !important;
+    }
+    .floated {
+        float: left !important;
+    }
+
+    h2 {
+        font-size: 24px !important;
+    }
+
+    .btn-signup {
+        padding: 15px 55px;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+  
+    .btn-pink_title {
+        font-size: 22px;
+    }
+
+    .twint {
+        width: 80%;
+    }
+  
+    .lead {
+        font-size: 0.9rem !important;
+    }
+  
+    .mobile_header {
+        display: none;
+    }
+  
+    footer {
+        font-size: 10px;
+    }
+  
+  
+  
+    .header_login-btn {
+        margin: 15px 0;
+    }
+  
+    .floated {
+        float: left;
+    }
+
+    
+   .mobile_header {
+       display: block;
+       width: 100%;
+   }
+
+   
+
+   .steps {
+       margin-top: 145px;
+   }
+
+   .card-icons {
+    margin-bottom: 15px;
+    }
+
+    .img_wrapper img {
+        height: 5%;
+        width: 80%; 
+    }
+
+    .steps {
+        border: 1px solid white;
+        padding: -7px;
+        margin:0 15px;
+        border-radius: 13px;
+    }
+
+
+   
+
+
+    
+
+}
+
+
+/* Tablet */
+@media (min-width:480px) and (max-width: 924px) {
+    .page_header {
+       
+        background-image: url(../img/tablet-header.png); 
+        background-size: cover;
+        
+    }
+
+    .page_header-wrapper {
+        position: static;
+    }
+
+    .floated {
+        float: left !important;
+    }
+
+    .page_header-wrapper {
+        top: 5%;
+        left: 0;
+        width: 100%;
+        padding: 0 15px;
+        position: static;
+      }
+    
+    
+      .step-boxes {
+          width: 100%;
+          margin: 10px 0;
+      }
+
+      .step-boxes_description {
+          font-size: 15px;
+      }
+    
+      .casino-title {
+          text-align: left;
+      }
+     
+      .btn-signup {
+          padding: 15px 55px;
+          font-size: 15px;
+          margin-top: 20px;
+      }
+    
+      .btn-pink_title {
+          font-size: 26px;
+      }
+    
+      .nav-brand {
+          text-align: center;
+      }
+    
+      .number-wrapper {
+          margin: 20px 0;
+          justify-content: start;
+      }
+    
+      .steps-title {
+          font-size: 22px;
+          line-height: 1.5;
+      }
+      .steps {
+        border: 1px solid white;
+        padding: -7px;
+        margin: 0 15px;
+        border-radius: 13px;
+      }
+    
+    
+    
+      .twint {
+          width: 80%;
+      }
+    
+      .lead {
+          font-size: 0.9rem !important;
+      }
+    
+      .mobile_header {
+          display: none;
+      }
+    
+      footer {
+          font-size: 10px;
+      }
+    
+    
+    
+      .header_login-btn {
+          margin: 15px 0;
+      }
+    
+      .floated {
+          float: left;
+      }
+
+      .card-icons {
+        margin-bottom: 15px;
+    }
+
+    .img_wrapper img {
+        height: 5%;
+        width: 65%; 
+    }
+
+   
+
+    
+    
+
+
+}
+
+
+
+/*Normal Screens  */
+@media (min-width:925px) and (max-width: 1200px) {
+    .page_header-wrapper {
+        left: calc(56% - 20px);
+      }
+      
+
+      
+
+
+}
+
+/*Widescreen  */
+@media (min-width:1201px) {
+
+}
+
+
+
